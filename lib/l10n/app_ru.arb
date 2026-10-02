@@ -1,0 +1,334 @@
+{
+  "@@locale": "en",
+  "appTitle": "Grove",
+  "appTagline": "G R O V E",
+  "plantATree": "Посадить дерево",
+  "plantTree": "Посадить дерево",
+  "plantANewTree": "Посадить новое дерево",
+  "habitName": "Название привычки",
+  "habitNameHint": "как например: Алкоголь, Курение, Соцсети",
+  "trackingMode": "РЕЖИМ ОТСЛЕЖИВАНИЯ",
+  "presetColors": "ВСТРОЕННЫЕ ЦВЕТА",
+  "customHexCode": "СВОЙ HEX КОД",
+  "hexCode": "Hex код",
+  "invalidHex": "Неверный hex",
+  "abstain": "Воздержание",
+  "abstainSubtitle1": "Растёт ежедневно автоматически",
+  "abstainSubtitle2": "Нажмите, чтобы записать срыв",
+  "checkIn": "Отметить",
+  "checkInSubtitle1": "Каждый день отмечайте для роста",
+  "checkInSubtitle2": "Рост построен на отметках",
+  "history": "История",
+  "daysSuffix": "{days}д",
+  "historyCount": "История ({count})",
+  "relapse": "Срыв",
+  "checkedIn": "Отмечено",
+  "checkInAction": "Отметить",
+  "dayStreak": "{days} дней подряд",
+  "@dayStreak": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "dayCount": "День {days}",
+  "@dayCount": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "alreadyCheckedInToday": "Сегодня уже отмечено ✓",
+  "tapBelowToCheckIn": "Нажмите ниже, чтобы отметить",
+  "giveHabitName": "Назовите свою привычку.",
+  "stageSeed": "Семя",
+  "stageSprout": "Росток",
+  "stageSapling": "Сажанец",
+  "stageYoungTree": "Молодое дерево",
+  "stageGroveTree": "Взрослое дерево",
+  "taglineSeed": "Каждый большой лес начинается здесь.",
+  "taglineSprout": "Под почвой формируются корни.",
+  "taglineSapling": "Растёт сильнее с каждым восходом.",
+  "taglineYoungTree": "Ваша крона приобретает форму.",
+  "taglineGroveTree": "Вы превратились в лес.",
+  "logARelapse": "Записать срыв?",
+  "relapseMotivation": "Вы сильнее, чем вам кажется.",
+  "customTimestamp": "Своя временная метка",
+  "loggedReason": "Указать причину (необязательно)",
+  "loggedReasonHint": "Стресс, тревога, выгорание? и т.д...",
+  "confirmLog": "Подтвердить запись",
+  "cancel": "Отмена",
+  "onboarding0Title": "Добро пожаловать в Grove 🌿",
+  "onboarding0Body": "Приватный трекер воздержания и привычек, в котором деревья символизируют ваш рост - чем дольше вы воздерживаетесь или отмечаете, тем более красочными и пышными становятся ваши деревья.",
+  "onboarding1Title": "Посадить дерево",
+  "onboarding1Body": "Нажмите \"Посадить дерево\" для создания привычки. Дайте ей название, выберите цвет, и Grove сгенерирует для неё уникальное дерево. Каждое дерево растёт по разному.",
+  "onboarding2Title": "Посмотреть на рост",
+  "onboarding2Body": "Каждый день помогает вашему дереву взрослеть через пять стадий роста - от крохотного семени до большого дерева с колышущимися ветвями и листьями.",
+  "onboarding3Title": "Записать срыв",
+  "onboarding3Body": "Если вы оступились, запишите это честно. Grove отслеживает ваши самые длинные серии и историю, поэтому ваш прогресс никогда не исчезает.",
+  "onboarding4Title": "Ваша история",
+  "onboarding4Body": "Откройте любое дерево чтобв изучить календарь, прогресс, историю серий, заметки срыва, а также представление о вашей стабильности в долгосрочной перспективе.",
+  "onboarding5Title": "Полностью конфиденциально",
+  "onboarding5Body": "Все данные остаются на вашем устройстве. Ничего никуда и никогла не отправляется. Вы можете в любое время сделать резервную копию или перенести вашу рощу через "Экспорт / Импорт" в настройках. А теперь вырастите что-нибудь, что стоит беречь. 🌱",
+  "next": "Далее",
+  "back": "Назад",
+  "startGrowing": "Начать выращивать 🌱",
+  "groveIsBare": "Ваша роща пуста.",
+  "plantFirstTree": "Посадите своё первое дерево, чтобы начать.",
+  "settingsHub": "Настройки",
+  "layoutArchitecture": "ВИД",
+  "renderThemes": "ТЕМА",
+  "privacyNotifications": "КОНФИДЕНЦИАЛЬНОСТЬ И УВЕДОМЛЕНИЯ",
+  "dataManagement": "УПРАВЛЕНИЕ ДАННЫМИ",
+  "reorderGrove": "Упорядочить рощу",
+  "holdDragToReorder": "Удерживайте и перетаскивайте ≡, чтобы изменить порядок",
+  "layoutWheel": "Колесо",
+  "layoutCarousel": "Карусель",
+  "layoutGrid": "Сетка",
+  "layoutList": "Список",
+  "themeForestDark": "Forest Dark",
+  "themeAmoledBlack": "AMOLED Black",
+  "themeMaterialYou": "Material You",
+  "themeWhiteMinimal": "White Minimal",
+  "milestoneNotifications": "Уведомления о прогрессе",
+  "milestoneNotificationsSubtitle": "Получать уведомление, когда дерево достигает новой сталии роста",
+  "biometricUnlock": "Биометрическая разблокировка",
+  "biometricUnlockSubtitle": "Запрашивать отпечаток пальца / Pin-код для запуска Grove",
+  "exportGroveBackup": "Создать резервную копию",
+  "restoreGroveBackup": "Восстановить из резервной копии",
+  "exportImportNote": "Резервное копирование сохраняет .json файл в выбраном вами месте.\nВосстановление перезапишет вашу текущую рощу • сначала сделайте копию.",
+  "backupSaved": "✓ Резервная копия сохранена",
+  "saveFailed": "Не удалось сохранить: {error}",
+  "@saveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "couldNotReadFile": "Не удалось прочитать выбраный файл.",
+  "groveRestored": "✓ Роща восстановлена — загружено {count} деревьев",
+  "@groveRestored": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "invalidBackup": "✗ Недопустимая резервная копия — убедитесь, что вы выбрали нужный файл",
+  "language": "ЯЗЫК",
+  "languageLabel": "Язык",
+  "links": "ССЫЛКИ",
+  "github": "GitHub",
+  "githubSubtitle": "Исходный код и вклад сообщества",
+  "buyMeCoffee": "Купите мне кофе",
+  "buyMeCoffeeSubtitle": "Поддержать разработку",
+  "needHelp": "Нужно с кем-нибудь поговорить?",
+  "needHelpSubtitle": "Доступна бесплатная конфиденциальная поддержка",
+  "madeWith": "Сделано с 🌿 • все данные остаются на вашем устройстве.",
+  "openSource": "Открытый исходный код",
+  "versionLabel": "v{version} • Открытый исходный код",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "groveDescription": "Grove – это минималистичный трекер воздержания и привычек которое визуализирует ваш рост через деревья. Каждый день, когда вы воздерживаетесь или отмечаетесь, ваше дерево растёт. Сделано с любовью в качестве бесплатного инструмента с открытым исходным кодом.",
+  "groveLocked": "Grove заблокирован",
+  "authenticateToContinue": "Авторизуйтесь для продолжения",
+  "unlockGrove": "Разблокировать Grove",
+  "currentStreak": "Текущая серия",
+  "peakRecord": "Лучший рекорд",
+  "relapses": "Срывов",
+  "checkIns": "Отметок",
+  "interactiveMonthlyLogs": "Интерактивный месячный журнал",
+  "swipeForEarlierMonths": "Свайп ← к предыдущим месяцам",
+  "thisMonth": "Этот месяц",
+  "logDateBeforeTracking": "← Сделать запись о дате до начала отслеживанием",
+  "abstinentSinceStart": "Нет записей о срывах.",
+  "timeSinceLastRelapse": "Прошло времени с момента последнего срыва",
+  "days": "ДНЕЙ",
+  "hrs": "Ч",
+  "min": "М",
+  "sec": "С",
+  "checkedInToday": "Сегодня отмечено",
+  "notCheckedInToday": "Сегодня ещё не отмечено",
+  "streak": "ПОДРЯД",
+  "total": "ВСЕГО",
+  "alreadyCheckedIn": "Уже отмечено",
+  "checkInToday": "Отметить сегодня",
+  "relapseSweepTimeline": "Обзор записей о срывах",
+  "checkInHistory": "История отметок",
+  "totalCount": "Всего {count}",
+  "@totalCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noRelapsesRecorded": "Нет записей о срывах. Продолжайте расти.",
+  "noCheckInsYet": "Пока никаких отметок. Начните сегодня!",
+  "renameHabit": "Переименовать",
+  "changeColor": "Изменить цвет",
+  "rerollTreeShape": "Сменить форму дерева",
+  "rerollTreeShapeConfirm": "Форма дерева будет случайным образом сгенерирована заново. Ваша текущая серия и история не изменятся.",
+  "habitOptions": "Опции",
+  "save": "Сохранить",
+  "dangerZone": "Зона опасности",
+  "deleteHabitPermanently": "Удалить безвозвратно",
+  "deleteHabit": "Удалить привычку?",
+  "deleteHabitConfirm": "Это навсегда удалит \"{name}\" вместе со всей её историей. Это действие необратимо.",
+  "@deleteHabitConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "Удалить",
+  "earlierThanLogs": "Раньше начала отслеживания?",
+  "trackingStarted": "Отслеживание началось {date}.\nЕсли что-то произошло до этого, вы можете записать это здесь.",
+  "@trackingStarted": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "logEarlierDate": "Записать более раннюю дату",
+  "extendsHistoryNote": "Это расширит вашу историю и пересчитает серию",
+  "logEarlierDateTitle": "Записать более раннюю дату",
+  "beforeTrackingStarted": "До начала отслеживания",
+  "extendHistoryInfo": "Это расширит вашу историю отслеживания на более ранний период и пересчитает вашу лучшую серию.",
+  "date": "ДАТА",
+  "time": "ВРЕМЯ",
+  "logAsRelapseOnDate": "Отметить срыв в этот день",
+  "onlyExtendStartDate": "Только расширить дату начала (Без срыва)",
+  "whatHappenedHint": "Что произошло в этот день…",
+  "peakSweep": "Дольше всего: {days} дней",
+  "@peakSweep": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "noReasonRecorded": "Причина не указана.",
+  "notifSproutTitle": "{name} дало росток! 🌱",
+  "@notifSproutTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifSproutBody": "У вашего дерева уже сформировались корни. Продолжайте расти.",
+  "notifSaplingTitle": "{name} стало сажанцем! 🌿",
+  "@notifSaplingTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifSaplingBody": "Ваше дерево уже может стоять. Посмотрите как вы выросли.",
+  "notifYoungTreeTitle": "{name} стало выше! 🌳",
+  "@notifYoungTreeTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifYoungTreeBody": "Ваша крона начинает приобретать форму. Невероятно!",
+  "notifGroveTreeTitle": "{name} теперь стало большим деревом! 🌲",
+  "@notifGroveTreeTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifGroveTreeBody": "Поздравляем!!! Вы выросли в целый лес.",
+  "saveGroveBackupDialog": "Сохранить резрвную копию",
+  "selectGroveBackupDialog": "Выбрать резервную копию",
+  "customAccentColor": "Свой акцент",
+  "customAccentDefault": "По умолчанию (зелёный)",
+  "customAccentSubtitle": "Применяется на кнопках, карточках и значках",
+  "applyAccent": "Применить акцент",
+  "resetAccentDefault": "Сбросить по умолчанию",
+  "dailyReminderSetting": "Ежедневное напоминание об отметках",
+  "dailyReminderSettingSubtitle": "Напоминание о том, чтобы проверить, как дела в вашем лесу",
+  "tapToChange": "Нажмите, чтобы изменить",
+  "languageSection": "ЯЗЫК",
+  "dailyReminderTitle": "Пора сделать отметку 🌿",
+  "dailyReminderBody": "Ваша роща ждёд. Не прерывайте серию.",
+  "legendMissed": "Пропущено",
+  "legendAbstained": "Воздержались",
+  "legendCheckIn": "Отмечено",
+  "legendRelapse": "Срыв",
+  "legendExcused": "Оправдано",
+  "relapseLoggedThisDay": "⚠️ В этот день записан срыв.",
+  "cleanRecord": "🌿 Очистить запись.",
+  "timeOverride": "ИЗМЕНИТЬ ВРЕМЯ",
+  "anchorTime": "Якорь: {time}",
+  "@anchorTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "checkInTimeLabel": "Отмечено в: {time}",
+  "@checkInTimeLabel": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "editReason": "РЕДАКТИРОВАТЬ ПРИЧИНУ",
+  "reasonOptional": "ПРИЧИНА (необязательно)",
+  "reasonHint": "Стресс, тревога, выгорание и т.д...",
+  "excusedStreakPreserved": "❄️ Оправдано, ваша серия сохранена.",
+  "checkedInThisDay": "✅ Отмечено в этот день.",
+  "noCheckInRecorded": "🌿 Не отмечено.",
+  "saveNewTime": "Сохранить время",
+  "excuseThisDayInstead": "Вместо этого оправдать",
+  "checkInInstead": "Вместо этого отметить",
+  "removeExcuse": "Убрать оправдание",
+  "updateLog": "Обновить запись",
+  "removeRelapseBtn": "Убрать срыв",
+  "addRelapseHere": "Добавить срыв",
+  "removeCheckIn": "Убрать отметку",
+  "checkInThisDay": "Отметить этот день",
+  "editNote": "РЕДАКТИРОВАТЬ ЗАМЕТКУ",
+  "noteOptional": "ЗАМЕТКА (необязательно)",
+  "noteHint": "Как сегодня всё прошло? Какие-нибудь успехи или моменты, которые стоит запомнить...",
+  "streakFrozen": "Серия заморожена",
+  "freezeStreak": "Заморозить серию",
+  "excusedDaysCount": "Количество оправданных дней",
+  "excuseStreakToggle": "С учётом оправданных дней",
+  "shareYourTree": "Поделиться деревом",
+  "share": "Поделиться",
+  "snapshotSaved": "✓ Снимок сохранён",
+  "couldNotCreateSnapshot": "Не удалось создать снимок",
+  "saveTreeSnapshotDialog": "Сохранить снимок дерева",
+  "shareTreeText": "{name} - {days} дней 🌱",
+  "@shareTreeText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "daySingularCaps": "ДЕНЬ"
+}
