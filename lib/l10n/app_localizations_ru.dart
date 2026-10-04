@@ -1,0 +1,718 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for English (`en`).
+class AppLocalizationsEn extends AppLocalizations {
+  AppLocalizationsEn([String locale = 'en']) : super(locale);
+
+  @override
+  String get appTitle => 'Grove';
+
+  @override
+  String get appTagline => 'G R O V E';
+
+  @override
+  String get plantATree => 'Посадить дерево';
+
+  @override
+  String get plantTree => 'Посадить дерево';
+
+  @override
+  String get plantANewTree => 'Посадить новое дерево';
+
+  @override
+  String get habitName => 'Название привычки';
+
+  @override
+  String get habitNameHint => 'Алкоголь, курение, соцсети, и т.д';
+
+  @override
+  String get trackingMode => 'РЕЖИМ ОТСЛЕЖИВАНИЯ';
+
+  @override
+  String get presetColors => 'ВСТРОЕННЫЕ ЦВЕТА';
+
+  @override
+  String get customHexCode => 'СВОЙ HEX КОД';
+
+  @override
+  String get hexCode => 'Hex код';
+
+  @override
+  String get invalidHex => 'Неверный hex';
+
+  @override
+  String get abstain => 'Воздержание';
+
+  @override
+  String get abstainSubtitle1 => 'Каждый день растёт автоматически';
+
+  @override
+  String get abstainSubtitle2 => 'Нажмите, чтобы записать срыв';
+
+  @override
+  String get checkIn => 'Отмечание';
+
+  @override
+  String get checkInSubtitle1 => 'Каждый день отмечайте для роста';
+
+  @override
+  String get checkInSubtitle2 => 'Рост построен на отметках';
+
+  @override
+  String get history => 'История';
+
+  @override
+  String daysSuffix(Object days) {
+    return '${days}д';
+  }
+
+  @override
+  String historyCount(Object count) {
+    return 'История ($count)';
+  }
+
+  @override
+  String get relapse => 'Срыв';
+
+  @override
+  String get checkedIn => 'Отмечено';
+
+  @override
+  String get checkInAction => 'Отметить';
+
+  @override
+  String dayStreak(int days) {
+    return '$days дней подряд';
+  }
+
+  @override
+  String dayCount(int days) {
+    return 'День $days';
+  }
+
+  @override
+  String get alreadyCheckedInToday => 'Already checked in today ✓';
+
+  @override
+  String get tapBelowToCheckIn => 'Нажмите ниже, чтобы отметить';
+
+  @override
+  String get giveHabitName => 'Назовите свою привычку.';
+
+  @override
+  String get stageSeed => 'Семя';
+
+  @override
+  String get stageSprout => 'Росток';
+
+  @override
+  String get stageSapling => 'Саженец';
+
+  @override
+  String get stageYoungTree => 'Молодое дерево';
+
+  @override
+  String get stageGroveTree => 'Взрослое дерево';
+
+  @override
+  String get taglineSeed => 'Каждый большой лес начинается здесь.';
+
+  @override
+  String get taglineSprout => 'Под почвой формируются корни.';
+
+  @override
+  String get taglineSapling => 'Рост всё сильнее с каждым восходом солнца.';
+
+  @override
+  String get taglineYoungTree => 'Крона приобретает форму.';
+
+  @override
+  String get taglineGroveTree => 'Вы превратились в лес.';
+
+  @override
+  String get logARelapse => 'Записать срыв?';
+
+  @override
+  String get relapseMotivation => 'Вы сильнее, чем вам кажется.';
+
+  @override
+  String get customTimestamp => 'СВОЯ ВРЕМЕННАЯ МЕТКА';
+
+  @override
+  String get loggedReason => 'УКАЗАТЬ ПРИЧИНУ (Необязательно)';
+
+  @override
+  String get loggedReasonHint =>
+      'Стресс, тревога, выгорание? и т.д...';
+
+  @override
+  String get confirmLog => 'Подтвердить запись';
+
+  @override
+  String get cancel => 'Отмена';
+
+  @override
+  String get onboarding0Title => 'Добро пожаловать в Grove 🌿';
+
+  @override
+  String get onboarding0Body =>
+      'тный трекер воздержания и привычек, в котором деревья символизируют ваш рост - чем дольше вы воздерживаетесь или отмечаетесь, тем более красочными и пышными становятся ваши деревья.';
+
+  @override
+  String get onboarding1Title => 'Посадить дерево';
+
+  @override
+  String get onboarding1Body =>
+      'Нажмите \"Посадить дерево\" для создания привычки. Дайте ей название, выберите цвет, и Grove сгенерирует для неё уникальное дерево. Каждое дерево растёт по разному';
+
+  @override
+  String get onboarding2Title => 'Watch It Grow';
+
+  @override
+  String get onboarding2Body =>
+      'Every day helps your tree mature through five growth stages, from a tiny seed all the way to a full grove tree with swaying branches and leaves.';
+
+  @override
+  String get onboarding3Title => 'Log a Relapse';
+
+  @override
+  String get onboarding3Body =>
+      'If you slip up, record it honestly. Grove tracks your longest streaks and history, so your progress is never erased.';
+
+  @override
+  String get onboarding4Title => 'Your History';
+
+  @override
+  String get onboarding4Body =>
+      'Open any tree to explore calendars, milestones, streak history, relapse notes, and insights into your long-term consistency.';
+
+  @override
+  String get onboarding5Title => 'Fully Private';
+
+  @override
+  String get onboarding5Body =>
+      'Everything stays on your device. Nothing is ever sent anywhere. Back up or move your grove anytime via Export / Import in Settings. Now go grow something worth keeping. 🌱';
+
+  @override
+  String get next => 'Next';
+
+  @override
+  String get back => 'Back';
+
+  @override
+  String get startGrowing => 'Start Growing 🌱';
+
+  @override
+  String get groveIsBare => 'Your grove is bare.';
+
+  @override
+  String get plantFirstTree => 'Plant your first tree to begin.';
+
+  @override
+  String get settingsHub => 'Settings Hub';
+
+  @override
+  String get layoutArchitecture => 'LAYOUT ARCHITECTURE';
+
+  @override
+  String get renderThemes => 'RENDER THEMES';
+
+  @override
+  String get privacyNotifications => 'PRIVACY & NOTIFICATIONS';
+
+  @override
+  String get dataManagement => 'DATA MANAGEMENT';
+
+  @override
+  String get reorderGrove => 'Reorder Grove';
+
+  @override
+  String get holdDragToReorder => 'Hold & drag ≡ to reorder';
+
+  @override
+  String get layoutWheel => 'Wheel';
+
+  @override
+  String get layoutCarousel => 'Carousel';
+
+  @override
+  String get layoutGrid => 'Grid';
+
+  @override
+  String get layoutList => 'List';
+
+  @override
+  String get themeForestDark => 'Forest Dark';
+
+  @override
+  String get themeAmoledBlack => 'AMOLED Black';
+
+  @override
+  String get themeMaterialYou => 'Material You';
+
+  @override
+  String get themeWhiteMinimal => 'White Minimal';
+
+  @override
+  String get milestoneNotifications => 'Milestone Notifications';
+
+  @override
+  String get milestoneNotificationsSubtitle =>
+      'Get notified when a tree reaches a new growth stage';
+
+  @override
+  String get biometricUnlock => 'Biometric Unlock';
+
+  @override
+  String get biometricUnlockSubtitle =>
+      'Require Fingerprint / Pin to open Grove';
+
+  @override
+  String get exportGroveBackup => 'Export Grove Backup';
+
+  @override
+  String get restoreGroveBackup => 'Restore Grove from Backup';
+
+  @override
+  String get exportImportNote =>
+      'Export saves a .json file to a location you choose.\nImporting will replace your current grove • export a backup first.';
+
+  @override
+  String get backupSaved => '✓ Backup saved';
+
+  @override
+  String saveFailed(String error) {
+    return 'Save failed: $error';
+  }
+
+  @override
+  String get couldNotReadFile => 'Could not read the selected file.';
+
+  @override
+  String groveRestored(int count) {
+    return '✓ Grove restored — $count trees loaded';
+  }
+
+  @override
+  String get invalidBackup =>
+      '✗ Invalid backup — make sure you selected the right file';
+
+  @override
+  String get language => 'LANGUAGE';
+
+  @override
+  String get languageLabel => 'Language';
+
+  @override
+  String get links => 'LINKS';
+
+  @override
+  String get github => 'GitHub';
+
+  @override
+  String get githubSubtitle => 'Source code & contributions';
+
+  @override
+  String get buyMeCoffee => 'Buy Me a Coffee';
+
+  @override
+  String get buyMeCoffeeSubtitle => 'Support development';
+
+  @override
+  String get needHelp => 'Need to Talk to Someone?';
+
+  @override
+  String get needHelpSubtitle => 'Free, confidential support is available';
+
+  @override
+  String get madeWith => 'Made with 🌿 • all data stays on your device.';
+
+  @override
+  String get openSource => 'Open Source';
+
+  @override
+  String versionLabel(String version) {
+    return 'v$version • Open Source';
+  }
+
+  @override
+  String get groveDescription =>
+      'Grove is a minimalist habit & sobriety tracker that visualizes your growth through trees. Every day you abstain or check-in, your tree grows. Built with love as a free, open-source tool.';
+
+  @override
+  String get groveLocked => 'Grove is locked';
+
+  @override
+  String get authenticateToContinue => 'Authenticate to continue';
+
+  @override
+  String get unlockGrove => 'Unlock Grove';
+
+  @override
+  String get currentStreak => 'Current Streak';
+
+  @override
+  String get peakRecord => 'Peak Record';
+
+  @override
+  String get relapses => 'Relapses';
+
+  @override
+  String get checkIns => 'Check-ins';
+
+  @override
+  String get interactiveMonthlyLogs => 'Interactive Monthly Logs';
+
+  @override
+  String get swipeForEarlierMonths => 'Swipe ← for earlier months';
+
+  @override
+  String get thisMonth => 'This month';
+
+  @override
+  String get logDateBeforeTracking => '← Log a date before tracking started';
+
+  @override
+  String get abstinentSinceStart => 'No relapses recorded.';
+
+  @override
+  String get timeSinceLastRelapse => 'Time since last relapse';
+
+  @override
+  String get days => 'DAYS';
+
+  @override
+  String get hrs => 'HRS';
+
+  @override
+  String get min => 'MIN';
+
+  @override
+  String get sec => 'SEC';
+
+  @override
+  String get checkedInToday => 'Checked in today';
+
+  @override
+  String get notCheckedInToday => 'Not checked in today';
+
+  @override
+  String get streak => 'STREAK';
+
+  @override
+  String get total => 'TOTAL';
+
+  @override
+  String get alreadyCheckedIn => 'Already Checked In';
+
+  @override
+  String get checkInToday => 'Check In Today';
+
+  @override
+  String get relapseSweepTimeline => 'Relapse Timeline Sweep';
+
+  @override
+  String get checkInHistory => 'Check-In History';
+
+  @override
+  String totalCount(int count) {
+    return '$count total';
+  }
+
+  @override
+  String get noRelapsesRecorded => 'No relapses recorded. Keep growing.';
+
+  @override
+  String get noCheckInsYet => 'No check-ins yet. Start today!';
+
+  @override
+  String get renameHabit => 'Rename Habit';
+
+  @override
+  String get changeColor => 'Change Color';
+
+  @override
+  String get rerollTreeShape => 'Reroll Tree Shape';
+
+  @override
+  String get rerollTreeShapeConfirm =>
+      'This will generate a new random shape for this tree. Your streak and history will not change.';
+
+  @override
+  String get habitOptions => 'Habit options';
+
+  @override
+  String get save => 'Save';
+
+  @override
+  String get dangerZone => 'Danger Zone';
+
+  @override
+  String get deleteHabitPermanently => 'Delete Habit Permanently';
+
+  @override
+  String get deleteHabit => 'Delete Habit?';
+
+  @override
+  String deleteHabitConfirm(String name) {
+    return 'This will permanently delete \"$name\" and all its history. This action cannot be undone.';
+  }
+
+  @override
+  String get delete => 'Delete';
+
+  @override
+  String get earlierThanLogs => 'Earlier than your logs?';
+
+  @override
+  String trackingStarted(String date) {
+    return 'Tracking started $date.\nIf something happened before that, you can log it here.';
+  }
+
+  @override
+  String get logEarlierDate => 'Log an Earlier Date';
+
+  @override
+  String get extendsHistoryNote =>
+      'This extends your history and recalculates streaks';
+
+  @override
+  String get logEarlierDateTitle => 'Log Earlier Date';
+
+  @override
+  String get beforeTrackingStarted => 'Before tracking started';
+
+  @override
+  String get extendHistoryInfo =>
+      'This will extend your tracking history earlier and recalculate your peak streaks.';
+
+  @override
+  String get date => 'DATE';
+
+  @override
+  String get time => 'TIME';
+
+  @override
+  String get logAsRelapseOnDate => 'Log as Relapse on This Date';
+
+  @override
+  String get onlyExtendStartDate => 'Only Extend Start Date (No Relapse)';
+
+  @override
+  String get whatHappenedHint => 'What happened that day…';
+
+  @override
+  String peakSweep(int days) {
+    return 'Peak Sweep: $days days';
+  }
+
+  @override
+  String get noReasonRecorded => 'No reason recorded.';
+
+  @override
+  String notifSproutTitle(String name) {
+    return '$name is sprouting! 🌱';
+  }
+
+  @override
+  String get notifSproutBody =>
+      'Your tree\'s roots are done forming. Keep growing.';
+
+  @override
+  String notifSaplingTitle(String name) {
+    return '$name is a sapling now! 🌿';
+  }
+
+  @override
+  String get notifSaplingBody =>
+      'Your tree is standing on its own, look how much you have grown';
+
+  @override
+  String notifYoungTreeTitle(String name) {
+    return '$name is growing tall! 🌳';
+  }
+
+  @override
+  String get notifYoungTreeBody =>
+      'Your canopy is starting to take shape, incredible.';
+
+  @override
+  String notifGroveTreeTitle(String name) {
+    return '$name is a grove tree! 🌲';
+  }
+
+  @override
+  String get notifGroveTreeBody =>
+      'Congratulations!!! You have become the forest.';
+
+  @override
+  String get saveGroveBackupDialog => 'Save Grove Backup';
+
+  @override
+  String get selectGroveBackupDialog => 'Select Grove Backup';
+
+  @override
+  String get customAccentColor => 'Custom Accent';
+
+  @override
+  String get customAccentDefault => 'Default green';
+
+  @override
+  String get customAccentSubtitle =>
+      'Applied across buttons, cards, and badges';
+
+  @override
+  String get applyAccent => 'Apply Accent';
+
+  @override
+  String get resetAccentDefault => 'Reset to default';
+
+  @override
+  String get dailyReminderSetting => 'Daily Check-in Reminder';
+
+  @override
+  String get dailyReminderSettingSubtitle =>
+      'A nudge to check-in on your forest';
+
+  @override
+  String get tapToChange => 'Tap to change';
+
+  @override
+  String get languageSection => 'LANGUAGE';
+
+  @override
+  String get dailyReminderTitle => 'Time to check in 🌿';
+
+  @override
+  String get dailyReminderBody =>
+      'Your grove is waiting. Keep the streak alive.';
+
+  @override
+  String get legendMissed => 'Missed';
+
+  @override
+  String get legendAbstained => 'Abstained';
+
+  @override
+  String get legendCheckIn => 'Check-in';
+
+  @override
+  String get legendRelapse => 'Relapse';
+
+  @override
+  String get legendExcused => 'Excused';
+
+  @override
+  String get relapseLoggedThisDay => '⚠️ Relapse logged on this day.';
+
+  @override
+  String get cleanRecord => '🌿 Clean record.';
+
+  @override
+  String get timeOverride => 'TIME OVERRIDE';
+
+  @override
+  String anchorTime(String time) {
+    return 'Anchor: $time';
+  }
+
+  @override
+  String checkInTimeLabel(String time) {
+    return 'Check-in time: $time';
+  }
+
+  @override
+  String get editReason => 'EDIT REASON';
+
+  @override
+  String get reasonOptional => 'REASON (optional)';
+
+  @override
+  String get reasonHint =>
+      'Stress, Anxiety, Burnout, Peer pressure, Trigger? etc...';
+
+  @override
+  String get excusedStreakPreserved => '❄️ Excused, your streak is preserved.';
+
+  @override
+  String get checkedInThisDay => '✅ Checked in on this day.';
+
+  @override
+  String get noCheckInRecorded => '🌿 No check-in recorded.';
+
+  @override
+  String get saveNewTime => 'Save New Time';
+
+  @override
+  String get excuseThisDayInstead => 'Excuse this day instead';
+
+  @override
+  String get checkInInstead => 'Check In Instead';
+
+  @override
+  String get removeExcuse => 'Remove excuse';
+
+  @override
+  String get updateLog => 'Update Log';
+
+  @override
+  String get removeRelapseBtn => 'Remove Relapse';
+
+  @override
+  String get addRelapseHere => 'Add Relapse Here';
+
+  @override
+  String get removeCheckIn => 'Remove Check-in';
+
+  @override
+  String get checkInThisDay => 'Check In This Day';
+
+  @override
+  String get editNote => 'EDIT NOTE';
+
+  @override
+  String get noteOptional => 'NOTE (optional)';
+
+  @override
+  String get noteHint =>
+      'How did it go today? Any wins or notes to remember...';
+
+  @override
+  String get streakFrozen => 'Streak frozen';
+
+  @override
+  String get freezeStreak => 'Freeze streak';
+
+  @override
+  String get excusedDaysCount => 'Excused days count';
+
+  @override
+  String get excuseStreakToggle => 'Count excused days';
+
+  @override
+  String get shareYourTree => 'Share Your Tree';
+
+  @override
+  String get share => 'Share';
+
+  @override
+  String get snapshotSaved => '✓ Snapshot saved';
+
+  @override
+  String get couldNotCreateSnapshot => 'Could not create snapshot';
+
+  @override
+  String get saveTreeSnapshotDialog => 'Save Tree Snapshot';
+
+  @override
+  String shareTreeText(String name, int days) {
+    return '$name - $days days 🌱';
+  }
+
+  @override
+  String get daySingularCaps => 'DAY';
+}
